@@ -2,3 +2,17 @@
 name = "track-bench"
 version = "0.1.0"
 edition = "2024"
+authors = ["Richard M. Hamilton"]
+description = "Dependency-aware job and task tracking application"
+repository = "https://github.com/rhamenator/TrackBench"
+
+[package.metadata.wix]
+upgrade-guid = "C9F07361-1501-4820-94EC-8B081F0F97EE"
+path-guid = "EC25AC57-6DAE-4DD8-B1DF-3879D4FB3268"
+license = false
+eula = false
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"
