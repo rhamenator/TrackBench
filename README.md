@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/assets/logo.png" alt="TrackBench logo" width="220">
+</p>
+
 # TrackBench
 
 A generic job/task tracker recovered from JobTrak's useful ideas. The first core
